@@ -585,7 +585,7 @@ Veja como seu aplicativo vai parecer no começo e no fim desta seção.
 
 ### Alguns principios básicos do NativeScript
 
-`<TabView>` fornece algumas propriedades de estilo prontas. Você pode aplicar uma transformação de texto para cada título das abas (`textTransform`) e mudar o tamanho da fonte e cor globalmente (`tabTextFontSize`, `tabTextColor`, `selectedTabTextColor`). You também pode mudar a cor de fundo das suas abas (`tabBackgroundColor`);
+`<TabView>` fornece algumas propriedades de estilo prontas. Você pode aplicar uma transformação de texto para cada título das abas (`textTransform`) e mudar o tamanho da fonte e cor globalmente (`tabTextFontSize`, `tabTextColor`, `selectedTabTextColor`). Você também pode mudar a cor de fundo das suas abas (`tabBackgroundColor`);
 
 > **NOTA:** Atualmente, `tabTextFontSize` não funciona no iOS e você não pode mudar o tamanho dos títulos das abas no iOS.
 
@@ -637,7 +637,7 @@ Para implementar um estilo particular para o texto das tarefas ativas, você pod
   ```HTML
   <ListView for="todo in todos" @itemTap="onItemTap" height="100%" separatorColor="transparent">
   ```
-1. Em `app.css`, crie um estilo para as tarefas tivas. Defina a o tamanho da fonte, cor e algum padding para posicionar o texto na página. Rode alterando margin e padding até você obter um resultado que agrade a você.
+1. Em `app.css`, crie um estilo para as tarefas ativas. Defina a o tamanho da fonte, cor e algum padding para posicionar o texto na página. Rode alterando margin e padding até você obter um resultado que agrade a você.
 
   ```CSS
   #active-task {
